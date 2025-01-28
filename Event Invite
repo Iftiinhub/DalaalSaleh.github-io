@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+       <style>
+            body {
+                background-color: rgb(232, 240, 189);
+            }
+            h1 {
+                text-align: center;
+            }
+            ul {
+                font-size: 20px;
+                width: 177px;
+                position: fixed;
+                right: 8px;
+                top: 61px;
+                color: rgb(36, 32, 32);
+                background-color: rgb(221, 235, 200);
+            }
+            .ECC {
+                font-weight: bold;
+                font-size: 1.1em;
+            }
+            #admission{
+                font-size: 18px;
+                margin-left: 10px;
+            }
+            #party {
+                font-size: 1.5em;
+            }
+            #intro {
+               width: 300px; 
+            }
+            #info {
+                background-color: rgb(197, 230, 175);
+                padding: 10px;
+                margin: 0px;
+            }
+            #fireworks {
+                width: 583px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <a href = "https://www.w3schools.com/code/tryit.asp?filename=GEUN00O1OK8S"><h1>You're invited!</h1></a>
+        
+        <ul>
+            <li>What:<span class="ECC">Celebrated</span> 2025 in style
+            <li>When: Dec 31, 2025
+            <li>Where: At Edgbaston Community Centre Birmingham!</li>
+        </ul>
+        
+        <p id="intro">Wow! 2024 has gone by quick! Come and celebrate with us at <span id="party">ECC Party party!</span></p>
+        <h5 id="admission">Admission only £7.5!</h5>
+        
+        <img id="fireworks" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/seasonal/fireworks-over-harbor.png" width="500">
+        
+        <div id="info">
+        <p>Celebrate <span class="ECC">2025</span> by coming to our ECC party! With Domino's Pizza catering. Now with food and games! We've even hired the <strong>local ECC Band </strong> to play a concert! Come and join the celebration! </p></div>
+        
+    </body>
+</html>
